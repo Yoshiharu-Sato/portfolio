@@ -175,6 +175,12 @@ li {
 /*--------------------------------
  Works
 ---------------------------------*/
+.works-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
