@@ -206,6 +206,23 @@ li {
   border: 1px solid #e6e6e6;
 }
 
+.works-item ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 11px;
+  margin: 0.5rem 0 0;
+}
+
+.works-item li {
+  margin: 0 6px 6px 0;
+  padding: 0 .5rem;
+  color: #ffffff;
+  background: #101010;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 9px;
+}
+
 .works-name {
   font-size: 12px;
   font-weight: bold;
@@ -228,7 +245,7 @@ li {
 
 .skill-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   width: 48%;
   margin-bottom: 50px;
